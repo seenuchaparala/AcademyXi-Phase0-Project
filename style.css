@@ -8,7 +8,7 @@ body {
     font-size: 16px;
     background: #cce2eb;
 }
-header {
+.menu.header {
     background: #4267B2;
     padding: 0 15px;
 }
@@ -25,6 +25,7 @@ a {
 .item {
     padding: 10px;
     margin-left: auto;
+    margin: 3px;
 }
 .item.button {
     padding: 9px 5px;
@@ -38,6 +39,7 @@ a {
     flex-wrap: nowrap;
     background: none;
     justify-content: space-between;
+    align-items: center;
 }
 .logo {
     order: 0;
@@ -67,7 +69,7 @@ body p{
 }
 
 body section {
-    width: 960px;
+    width: 980px;
     margin: 10px auto;
 }
 
@@ -78,7 +80,7 @@ h1 {
 }
 
 .company img {
-    width: 210px;
+    width: 215px;
     height: 220px;
     border-radius: 60%;
 }
@@ -87,4 +89,8 @@ figcaption {
     text-align: center;
     font-size: large;
     font-family: 'Andada Pro', serif;
+}
+
+.nav {
+    margin: 4px;
 }
